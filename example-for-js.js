@@ -1,8 +1,8 @@
-let a = 2;
-let b = 4;
-let c = 6;
-
-let x = a+b+c;
-let y = x/ 3;
-
-console.log(y);
+let kitaplar = ["a","b","c","d"];
+kitaplar.push("e")
+console.log(kitaplar);
+let kitap = kitaplar.slice(0,2);
+console.log(kitap);
+console.log(kitaplar);
+kitaplar.splice(1,0,"Z-H","H-Z");
+console.log(kitaplar);
